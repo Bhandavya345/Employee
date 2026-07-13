@@ -1,0 +1,43 @@
+# Employee Management API
+
+A RESTful Employee Management API built using **Go (Golang)**. This project provides CRUD (Create, Read, Update, Delete) operations for managing employee records.
+
+## Features
+
+- Add a new employee
+- Retrieve all employees
+- Retrieve an employee by ID
+- Update employee details
+- Delete an employee
+- JSON request and response format
+- RESTful API design
+- Modular project structure
+
+## Tech Stack
+
+- Go (Golang)
+- net/http
+- encoding/json
+- REST API
+
+## Project Structure
+
+```
+Employee/
+│── controllers/
+│   └── employee_controller.go
+│
+│── models/
+│   └── employee.go
+│
+│── services/
+│   └── employee_service.go
+│
+│── routes/
+│   └── routes.go
+│── .env
+│── main.go
+│── go.mod
+│── go.sum
+│── README.md
+```
